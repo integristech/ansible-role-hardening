@@ -4,3 +4,4 @@ ansible-playbook-grapher
 molecule>=3.0,<3.1
 molecule-vagrant
 pytest-molecule
+ansible-core>=2.14.18rc1 # not directly required, pinned by Snyk to avoid a vulnerability
